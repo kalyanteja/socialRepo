@@ -1,0 +1,25 @@
+{
+  "name": "socialrepo",
+  "version": "1.0.0",
+  "description": "install required packages for the api",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalyanteja/socialRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalyanteja/socialRepo/issues"
+  },
+  "homepage": "https://github.com/kalyanteja/socialRepo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "~4.16",
+    "fs": "0.0.1-security"
+  }
+}
